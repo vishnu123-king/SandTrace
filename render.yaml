@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: sandtrace
+    env: docker
+    region: oregon
+    plan: free
+    branch: main
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
