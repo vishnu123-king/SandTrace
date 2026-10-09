@@ -1,0 +1,6 @@
+{
+  "name": "SandTrace",
+  "description": "SandTrace — Secure Linux Sandbox & Git Repository Security Intelligence Platform. Isolate. Analyze. Secure.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
