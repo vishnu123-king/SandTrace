@@ -8,8 +8,8 @@ WORKDIR /app
 # Copy package manifests
 COPY package.json ./
 
-# Install all dependencies (including devDependencies for tsx / build)
-RUN npm install
+# Install all dependencies with legacy peer deps flag to handle tailwindcss/vite/esbuild peer constraints
+RUN npm install --legacy-peer-deps
 
 # Copy source code
 COPY . .
